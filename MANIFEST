@@ -6,5 +6,7 @@ Makefile.PL
 README
 dist.ini
 lib/Module/OTRS/CoreList.pm
+scripts/get_modules.pl
+t/001_basic_tests.t
 xt/release/pod-coverage.t
 xt/release/pod-syntax.t

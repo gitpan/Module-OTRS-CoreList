@@ -20,9 +20,9 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'artistic_2',
   'NAME' => 'Module::OTRS::CoreList',
   'PREREQ_PM' => {},
-  'VERSION' => '0.01',
+  'VERSION' => '0.02',
   'test' => {
-    'TESTS' => ''
+    'TESTS' => 't/*.t'
   }
 );
 
