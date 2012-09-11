@@ -4,25 +4,25 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'what modules shipped with versions of OTRS (>= 2.3.x)',
-  'AUTHOR' => 'Renee Baecker <module@renee-baecker.de>',
-  'BUILD_REQUIRES' => {},
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+  "ABSTRACT" => "what modules shipped with versions of OTRS (>= 2.3.x)",
+  "AUTHOR" => "Renee Baecker <module\@renee-baecker.de>",
+  "BUILD_REQUIRES" => {},
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'Module-OTRS-CoreList',
-  'EXE_FILES' => [],
-  'LICENSE' => 'artistic_2',
-  'NAME' => 'Module::OTRS::CoreList',
-  'PREREQ_PM' => {},
-  'VERSION' => '0.02',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "DISTNAME" => "Module-OTRS-CoreList",
+  "EXE_FILES" => [],
+  "LICENSE" => "artistic_2",
+  "NAME" => "Module::OTRS::CoreList",
+  "PREREQ_PM" => {},
+  "VERSION" => "0.03",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
