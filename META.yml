@@ -1,15 +1,15 @@
 ---
 abstract: 'what modules shipped with versions of OTRS (>= 2.3.x)'
 author:
-  - 'Renee Baecker <module@renee-baecker.de>'
+  - 'Renee Baecker <reneeb@cpan.org>'
 build_requires: {}
 configure_requires:
-  ExtUtils::MakeMaker: '6.30'
+  ExtUtils::MakeMaker: '0'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132830'
+generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060'
 license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
 name: Module-OTRS-CoreList
-version: '0.06'
+version: '0.07'
